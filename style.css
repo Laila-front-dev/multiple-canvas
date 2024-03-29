@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: white;
+  /* min-height: 2000vh; */
+  /* color: black; */
+}
+
+/* canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+} */
+
+.container {
+  width: 1110px;
+  padding-inline: 1rem;
+  margin-inline: auto;
+}
+
+.flex {
+  position: relative;
+  display: flex;
+}
+
+#canvas1 {
+  position: relative;
+  max-width: 100%;
+  z-index: 2;
+}
+
+.hero__image {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 500px;
+  background-image: url("https://images.unsplash.com/photo-1589254065909-b7086229d08c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  z-index: 1;
+}
